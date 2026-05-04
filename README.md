@@ -28,3 +28,8 @@
 ├── Makefile
 ├── README.md
 ├── go.mod
+
+
+## Pull Request
+
+Ця гілка створена для оформлення Pull Request до лабораторної роботи №1.
