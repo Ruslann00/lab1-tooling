@@ -61,3 +61,7 @@ app:
 calculator:
   a: 10
   b: 5
+
+## GitHub Actions Result
+
+![GitHub Actions Success](docs/github-actions-success.png)
