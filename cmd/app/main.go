@@ -1,5 +1,4 @@
 // Package main starts the Lab 2 Go Tooling application.
-
 package main
 
 import (
