@@ -33,3 +33,31 @@
 ## Pull Request
 
 Ця гілка створена для оформлення Pull Request до лабораторної роботи №1.
+
+# Lab 1 Tooling / Lab 2 Dependencies and CI
+
+![Go CI](https://github.com/Ruslann00/lab1-tooling/actions/workflows/ci.yml/badge.svg)
+
+## Лабораторна робота №2
+
+Тема: Управління залежностями в Go та автоматизація перевірок через GitHub Actions.
+
+## Використані залежності
+
+У проєкті додано:
+
+- `go.uber.org/zap` — бібліотека для логування;
+- `github.com/spf13/viper` — бібліотека для читання конфігураційного файлу.
+
+## Конфігурація
+
+Файл `config.yaml`:
+
+```yaml
+app:
+  name: "Lab 2 Go Tooling"
+  environment: "development"
+
+calculator:
+  a: 10
+  b: 5
