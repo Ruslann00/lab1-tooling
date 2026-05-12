@@ -9,7 +9,7 @@ lint:
 	golangci-lint run
 
 test:
-	go test -v ./...
+	go test -race -v ./...
 
 build:
 	go build -o bin/$(APP_NAME) ./cmd/app

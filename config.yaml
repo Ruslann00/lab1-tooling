@@ -1,0 +1,7 @@
+app:
+  name: "Lab 2 Go Tooling"
+  environment: "development"
+
+calculator:
+  a: 10
+  b: 5
